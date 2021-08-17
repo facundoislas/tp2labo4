@@ -1,0 +1,16 @@
+<div style="display: inline-flex">
+    <div>
+    <button class="espanol" (click)="eleccionIdioma('español')"></button></div>
+    <div><button class="ingles" (click)="eleccionIdioma('ingles')"></button></div>
+    <div><button class="portugues " (click)="eleccionIdioma('portugues')"></button></div>
+
+
+</div>
+<div style="display: grid;height: 90%;">
+    <button class="perro" (click)="reproducirSonido('perro')"></button>
+    <button class="gato" (click)="reproducirSonido('gato')"></button>
+    <button class="leon" (click)="reproducirSonido('leon')"></button>
+    <button class="pajaro" (click)="reproducirSonido('pajaro')"></button>
+    <button class="mono" (click)="reproducirSonido('mono')"></button>
+    <button class="volver" routerLink="/principal"></button>
+</div>

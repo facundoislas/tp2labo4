@@ -1,0 +1,122 @@
+.lindas { 
+    color: #F9FF57; 
+    background-color: #863FE3; 
+    border-color: #1C1C1C; 
+    height: 50%;
+  } 
+   
+  .lindas:hover, 
+  .lindas:focus, 
+  .lindas:active, 
+  .lindas.active, 
+  .open .dropdown-toggle.lindas { 
+    color: #F9FF57; 
+    background-color: #3C196B; 
+    border-color: #1C1C1C; 
+  } 
+   
+  .lindas:active, 
+  .lindas.active, 
+  .open .dropdown-toggle.lindas { 
+    background-image: none; 
+  } 
+   
+  .lindas.disabled, 
+  .lindas[disabled], 
+  fieldset[disabled] .lindas, 
+  .lindas.disabled:hover, 
+  .lindas[disabled]:hover, 
+  fieldset[disabled] .lindas:hover, 
+  .lindas.disabled:focus, 
+  .lindas[disabled]:focus, 
+  fieldset[disabled] .lindas:focus, 
+  .lindas.disabled:active, 
+  .lindas[disabled]:active, 
+  fieldset[disabled] .lindas:active, 
+  .lindas.disabled.active, 
+  .lindas[disabled].active, 
+  fieldset[disabled] .lindas.active { 
+    background-color: #863FE3; 
+    border-color: #1C1C1C; 
+  } 
+   
+  .lindas .badge { 
+    color: #863FE3; 
+    background-color: #F9FF57; 
+
+  }
+
+  .lindas:before
+  {
+    
+    content: "\0000a0";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    line-height: 24px;
+    position: relative;
+    background: url("./../../assets/img/lindas.jpg") no-repeat left center transparent;
+    background-size: 100% 95%;
+   
+  }
+
+  .feas { 
+    color: #0B0B47; 
+    background-color: #F2DF0E; 
+    border-color: #1C1C1C; 
+    height: 50%;
+  } 
+   
+  .feas:hover, 
+  .feas:focus, 
+  .feas:active, 
+  .feas.active, 
+  .open .dropdown-toggle.feas { 
+    color: #0B0B47; 
+    background-color: #798713; 
+    border-color: #1C1C1C; 
+  } 
+   
+  .feas:active, 
+  .feas.active, 
+  .open .dropdown-toggle.feas { 
+    background-image: none; 
+  } 
+   
+  .feas.disabled, 
+  .feas[disabled], 
+  fieldset[disabled] .feas, 
+  .feas.disabled:hover, 
+  .feas[disabled]:hover, 
+  fieldset[disabled] .feas:hover, 
+  .feas.disabled:focus, 
+  .feas[disabled]:focus, 
+  fieldset[disabled] .feas:focus, 
+  .feas.disabled:active, 
+  .feas[disabled]:active, 
+  fieldset[disabled] .feas:active, 
+  .feas.disabled.active, 
+  .feas[disabled].active, 
+  fieldset[disabled] .feas.active { 
+    background-color: #F2DF0E; 
+    border-color: #1C1C1C; 
+  } 
+   
+  .feas .badge { 
+    color: #F2DF0E; 
+    background-color: #0B0B47; 
+  }
+
+  .feas:before
+  {
+    
+    content: "\0000a0";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    line-height: 24px;
+    position: relative;
+    background: url("./../../assets/img/feas.jpg") no-repeat left center transparent;
+    background-size: 100% 95%;
+    
+  }

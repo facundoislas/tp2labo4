@@ -1,0 +1,189 @@
+.button1 {
+	-moz-box-shadow:inset 0px 1px 13px 3px #fff6af;
+    -webkit-box-shadow:inset 0px 1px 13px 3px #fff6af;
+	box-shadow:inset 0px 1px 13px 3px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	border:3px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+     
+}
+.button1:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.button1:active {
+	position:relative;
+	top:1px;
+}
+
+.button2 {
+	-moz-box-shadow:inset 0px 1px 13px 3px #3dc21b;
+	-webkit-box-shadow:inset 0px 1px 13px 3px #3dc21b;
+	box-shadow:inset 0px 1px 13px 3px #3dc21b;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+	background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+	background-color:#44c767;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.button2:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+	background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+	background-color:#5cbf2a;
+}
+.button2:active {
+	position:relative;
+	top:1px;
+}
+
+.button3 {
+	-moz-box-shadow:inset 0px 1px 15px 0px #9fb4f2;
+	-webkit-box-shadow:inset 0px 1px 15px 0px #9fb4f2;
+	box-shadow:inset 0px 1px 15px 0px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	border:3px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.button3:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+.button3:active {
+	position:relative;
+	top:1px;
+}
+
+.cerrar {
+	
+	
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+    border: 2px solid #f50c69;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 14px 158px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	background: url("./../../assets/img/x.png") no-repeat left center transparent;
+	background-color:#e4685d;
+	background-size: 34px;
+    background-position: center;
+}
+.cerrar:hover {
+	background-color:#eb675e;
+}
+.cerrar:active {
+	position:relative;
+	top:1px;
+}
+
+.button1:before{
+	content: "\0000a0";
+    display: inline-block;
+    height: 140px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0px 4px -8px -4px;
+    position: relative;
+    padding: 25px 139px;
+    
+    background: url("./../../assets/img/animales.jpg") no-repeat left center transparent;
+    background-size: 79% 82%;
+    background-position: center;
+}
+
+.button2:before{
+    content: "\0000a0";
+    display: inline-block;
+    height: 125px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0px 4px -8px -4px;
+    position: relative;
+    padding: 25px 139px;
+    background: url("./../../assets/img/colors.jpg") no-repeat left center transparent;
+    background-size: 79% 82%;
+    background-position: center;
+
+}
+
+.button3:before{
+	content: "\0000a0";
+    display: inline-block;
+    height: 122px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0px 4px -8px -4px;
+    position: relative;
+    padding: 25px 139px;
+    background: url("./../../assets/img/numbers.png") no-repeat left center transparent;
+    background-size: 79% 82%;
+    background-position: center;
+
+}
+
+.cerrar:before{
+	
+}
+

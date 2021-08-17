@@ -1,0 +1,47 @@
+.splash {
+  
+    margin: 100px auto;
+    -webkit-animation: sk-rotateplane 2s infinite ease-in-out;
+    animation: sk-rotateplane 2s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-rotateplane {
+    0% { -webkit-transform: perspective(120px) }
+    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+  }
+  
+  @keyframes sk-rotateplane {
+    0% { 
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+    } 50% { 
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+    } 100% { 
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+  }
+
+  .spinner{
+    background-image: url(./../../../resources/icon.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: flex;
+    width: 400px;
+    height: 400px;
+    
+  }
+
+  body {
+  background: rgba(15, 37, 2, 0.671); /* fallback for old browsers */
+  background: -webkit-linear-gradient(right,rgba(15, 37, 2, 0.671), rgba(15, 37, 2, 0.671));
+  background: -moz-linear-gradient(right,rgba(15, 37, 2, 0.671), rgba(15, 37, 2, 0.671));
+  background: -o-linear-gradient(right,rgba(15, 37, 2, 0.671), rgba(15, 37, 2, 0.671));
+  background: linear-gradient(to left, right,rgba(15, 37, 2, 0.671), rgba(15, 37, 2, 0.671));
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}

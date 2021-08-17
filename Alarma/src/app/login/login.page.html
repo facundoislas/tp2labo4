@@ -1,0 +1,33 @@
+<body>
+
+<div class="wrapper">
+	<div class="container">
+		<h1>Bienvenido</h1>
+		
+		<div class="form">
+			<input [(ngModel)]="user.email" type="text" placeholder="Correo">
+      <input [(ngModel)]="user.password" type="password" placeholder="Contraseña">
+      
+      <div class="container-login100-form-btn" >
+						
+        <ion-item>
+          <label style="text-align:center;">Usuario</label>
+        <ion-select    name="f" [(ngModel)]="tipoUser" (ionChange)="UserValido()">
+          <ion-select-option value="admin">Administrador</ion-select-option>
+          <ion-select-option value="usuario">Usuario</ion-select-option>
+          <ion-select-option value="invitado">Invitado</ion-select-option>
+          <ion-select-option value="anonimo">Anonimo</ion-select-option>
+          <ion-select-option value="tester">Tester</ion-select-option>
+        </ion-select>
+        </ion-item>
+      
+      </div>
+
+      <button type="submit" id="login-button" (click)="login()">Acceder</button>
+      <button type="submit" id="button2"  (click)="borrar()">Cancelar</button>
+		</div>
+	</div>
+	
+	
+</div>
+</body>
