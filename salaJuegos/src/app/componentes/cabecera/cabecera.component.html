@@ -1,0 +1,51 @@
+	<!-- Header section -->
+	<header class="header-section">
+      <div class="header-warp">
+        <div class="header-bar-warp d-flex">
+          <div>
+            <h2 class="titulo">
+           Mi Sala de Juegos</h2>
+        </div>
+          <!-- site logo -->				
+          <nav class="top-nav-area w-100">
+            <div class="user-panel" >
+              <!--div *ngIf="!verificarSesion()" >
+              <div ><a routerLink="/Login" >Ingresá</a></div>
+              <div ><a routerLink="/Registro" >Registrate</a></div>
+            </div-->
+              <div *ngIf="verificarSesion()"><a routerLink="/" (click)="cerrarSesion()" >Cerrar sesion</a></div>
+            </div>
+            <!-- Menu -->
+            <ul class="main-menu primary-menu" *ngIf="verificarSesion()">
+              <li><a routerLink="/Principal">Inicio</a></li>
+              <li><a routerLink="/Juegos">Juegos</a>
+              </li>
+              <li><a routerLink="/Listado">Listado de Resultados</a>
+              <li><a>Sobre Mi</a>
+                <ul class="sub-menu">
+                  <li><a href="https://github.com/facundoislas" target="blank">En Github</a></li>
+                  <li><a routerLink="/QuienSoy">Sobre Facundo Islas</a></li>
+                </ul>
+              </li>
+              
+              
+            </ul>
+            <ul class="main-menu primary-menu" *ngIf="!verificarSesion()">
+              <li><a >Inicio</a></li>
+              <li><a >Juegos</a>
+              </li>
+              <li><a >Listado de Resultados</a>
+              <li><a>Sobre Mi</a>
+                <ul class="sub-menu">
+                  <li><a href="https://github.com/facundoislas" target="blank">En Github</a></li>
+                  <li><a routerLink="/QuienSoy">Sobre Facundo Islas</a></li>
+                </ul>
+              </li>
+              
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Header section end -->

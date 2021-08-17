@@ -1,0 +1,111 @@
+form {
+  
+    text-align: center;
+    
+    padding:0px;
+    margin: 0 auto;
+    background-position: center;
+  
+  }
+  .estilosContainer{
+      background-color: lightblue;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      -webkit-background-size : cover;
+      -moz-background-size : cover;
+      -moz-background-size : cover;
+      background-size: cover;
+      margin:1;
+      padding:6%;
+  }
+  img{
+      border-radius: 8px;
+      border : white 2px solid;
+  }
+  
+  input [type="radio"]{
+      padding: 5px 15px;
+      background: #FF4136;
+      border-radius: 2px;
+      color: #fff
+  }
+  
+  h1{
+      color: yellow;
+      text-underline-position: above;
+  }
+  
+  label{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 25px;
+  }
+  
+  button {
+      /*background-color: #4CAF50;*/
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 50%;
+  }
+  
+  button:hover {
+      opacity: 0.8;
+  }
+  
+  .Verificarbtn {
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      border-radius: 40px;
+      border: white 4px solid;
+      width: 50%;
+      background-color: green;
+  }
+  .NuevoJuegobtn {
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      border-radius: 40px;
+      border: white 4px solid;
+      width: 50%;
+      background-color: orange;
+  }
+  
+  #snackbar {
+      visibility: hidden;
+      min-width: 250px;
+      margin-left: -125px;
+     
+      color: #fff;
+      text-align: center;
+      border-radius: 2px;
+      padding: 16px;
+      position: fixed;
+      z-index: 1;
+      left: 50%;
+      bottom: 30px;
+      font-size: 17px;
+  }
+  #snackbar.Ganador {
+      background-color: #059F2F;
+  }
+  #snackbar.Perdedor {
+      background-color: #FF0000;
+  }
+  #snackbar.show {
+      visibility: visible;
+      -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+
+  .fondo{
+
+    background-image: url(".../../../docs/assets/imagenes/slider-bg-2.jpg");
+    margin-top: -60px;
+    padding-bottom: 12%;
+  }

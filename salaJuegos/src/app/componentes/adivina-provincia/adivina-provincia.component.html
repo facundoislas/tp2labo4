@@ -1,0 +1,22 @@
+<div class="fondo">
+  <form>
+      <h1>{{nombre}}</h1>
+      <br>
+      <div style="
+      padding-top: 7%;">
+    <img style="float: left;margin-left: 220px;"*ngIf="nuevoJuego.elementoAdivinar != null" src="./assets/imagenes/provincias/{{nuevoJuego.elementoAdivinar['path']}}" height="325px" width="325px">
+    <br><br>
+    <div *ngFor="let opciones of nuevoJuego.opcionesMostradas" >
+    <input type="radio" name="nuevoJuego.opcionIngresada" [(ngModel)]="nuevoJuego.opcionIngresada" value="{{opciones}}" ><label style="color: lightgreen;">{{opciones}}</label>
+    <br><br>
+  </div>
+  <div>
+  <button class="NuevoJuegobtn" *ngIf="nuevoJuego.elementoAdivinar == null" (click)="generar()"     >Nuevo Juego</button>
+  <button style="display: block;
+  margin-left: 30%;" class="Verificarbtn" [hidden]="ocultarVerificar" *ngIf="nuevoJuego.elementoAdivinar != null" (click)="verificar()">Verificar</button>
+</div>
+</div>  
+</form>
+  <div id="snackbar">{{Mensajes}}</div>
+  
+  </div>
